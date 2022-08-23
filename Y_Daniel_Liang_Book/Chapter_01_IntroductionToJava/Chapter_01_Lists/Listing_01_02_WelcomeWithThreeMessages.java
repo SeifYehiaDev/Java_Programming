@@ -6,12 +6,8 @@
 
 package Chapter_01_Lists;
 
-public class Listing_01_01_Welcome {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Java!");
-    }
+public class Listing_01_02_WelcomeWithThreeMessages {
 }
-
 /*                                                 _Output_
  * Welcome to Java!
  * */
