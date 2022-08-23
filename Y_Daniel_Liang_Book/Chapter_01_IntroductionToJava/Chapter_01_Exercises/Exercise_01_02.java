@@ -12,13 +12,13 @@ package Chapter_01_Exercises;
 public class Exercise_01_02 {
     public static void main(String[] args) {
         for(int i = 0 ; i<=4 ; i++)
-            System.out.println("Welcome to Java");
+            System.out.println("Welcome to Java.");
     }
 }
 /*                                                 _Output_
- * Welcome to Java
- * Welcome to Java
- * Welcome to Java
- * Welcome to Java
- * Welcome to Java
+ * Welcome to Java.
+ * Welcome to Java.
+ * Welcome to Java.
+ * Welcome to Java.
+ * Welcome to Java.
  * */
