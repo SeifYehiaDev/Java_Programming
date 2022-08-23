@@ -13,6 +13,7 @@ package Chapter_01_Exercises;
  * J   J   AAAAA    V V    AAAAA
  *  J J   A     A    V    A     A
  * */
+//                                                 _Solution_
 public class Exercise_01_03 {
     public static void main(String[] args) {
         System.out.println("    J     A    V     V    A");
