@@ -7,7 +7,13 @@
 package Chapter_01_Lists;
 
 public class Listing_01_02_WelcomeWithThreeMessages {
+    public static void main(String[] args) {
+        System.out.println("Programming is fun!\n" + "Fundamentals First\n" + "Problem Driven");
+    }
 }
+
 /*                                                 _Output_
- * Welcome to Java!
+ * Programming is fun!
+ * Fundamentals First
+ * Problem Driven
  * */
