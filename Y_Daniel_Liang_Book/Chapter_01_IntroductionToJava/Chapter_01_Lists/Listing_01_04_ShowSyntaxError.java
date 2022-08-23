@@ -6,7 +6,7 @@
 
 package Chapter_01_Lists;
 
-public class Listing_01_03_ShowSyntaxErrors {
+public class Listing_01_04_ShowSyntaxError {
     public static void main(String[] args) {
         // Syntax Error
        // System.out.println("Welcome to Java); should be closed with a closing quotation mark
