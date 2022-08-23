@@ -9,6 +9,7 @@ package Chapter_01_Exercises;
 /*                                                 _Question_
  * (Display three messages) Write a program that displays Welcome to Java, Welcome to Computer Science, and Programming is fun.
  * */
+//                                                 _Solution_
 public class Exercise_01_01 {
     public static void main(String[] args) {
         System.out.println("Welcome to Java\n" + "Welcome to Computer Science\n" + "Programming is fun");
