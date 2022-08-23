@@ -1,6 +1,6 @@
 /*
  * Author : Seif Yehia Esmail Abdel-Aal
- * My accounts on social media (Facebook , LinkedIn , Github ) =  @SeifYehiaDev
+ * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
  * Created on : 23/8/2022
  * */
 
