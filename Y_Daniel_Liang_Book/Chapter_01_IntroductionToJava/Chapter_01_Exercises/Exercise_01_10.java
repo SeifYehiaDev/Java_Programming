@@ -14,13 +14,13 @@ package Chapter_01_Exercises;
 //                                                 _Solution_
 public class Exercise_01_10 {
     public static void main(String[] args) {
-        int kilometers = 14, minutes = 45, seconds = 30;
-        float hours = (((seconds / 60.0F) + minutes) / 60.0F);
-        System.out.println("A runner runs " + kilometers + " kilometers in " + minutes + " minutes and " + seconds + " seconds.");
-        System.out.println("A runner runs " + kilometers / 1.6 / hours + " miles per hour.");
+        final float KILOMETERS = 14.0F, MINUTES = 45.0F, SECONDS = 30.0F;
+        float hours = (((SECONDS / 60) + MINUTES) / 60);
+        System.out.println("A runner runs " + KILOMETERS + " kilometers in " + MINUTES + " minutes and " + SECONDS + " seconds.");
+        System.out.println("A runner runs " + KILOMETERS / 1.6 / hours + " miles per hour.");
     }
 }
 /*                                                 _Output_
- * A runner runs 14 kilometers in 45 minutes and 30 seconds.
+ * A runner runs 14.0 kilometers in 45.0 minutes and 30.0 seconds.
  * A runner runs 11.538461659383897 miles per hour.
  * */
