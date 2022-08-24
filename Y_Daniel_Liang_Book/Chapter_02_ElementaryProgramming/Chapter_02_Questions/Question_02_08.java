@@ -12,7 +12,6 @@ package Chapter_02_Questions;
 //                                                 _Solution_
 public class Question_02_08 {
     public static void main(String[] args) {
-
     }
 }
 
