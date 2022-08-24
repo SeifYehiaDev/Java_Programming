@@ -8,7 +8,7 @@ package Chapter_02_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_02_ComputeAverage {
+public class Listing_02_03_ComputeAverage {
     public static void main(String[] args) {
         double numberOne, numberTwo, numberThree, average;
         Scanner input = new Scanner(System.in);
