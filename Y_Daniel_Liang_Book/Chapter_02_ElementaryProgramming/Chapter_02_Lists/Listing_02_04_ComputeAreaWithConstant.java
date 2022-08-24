@@ -8,7 +8,7 @@ package Chapter_02_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_03_ComputeAreaWithConstant {
+public class Listing_02_04_ComputeAreaWithConstant {
     public static void main(String[] args) {
         final double PI = Math.PI;
         Scanner input = new Scanner(System.in);
