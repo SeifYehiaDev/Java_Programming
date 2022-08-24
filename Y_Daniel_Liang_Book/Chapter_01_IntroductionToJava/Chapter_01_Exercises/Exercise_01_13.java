@@ -27,6 +27,8 @@ public class Exercise_01_13 {
 }
 
 /*                                                 _Output_
- * A runner runs 24.0 miles in 1.0 hour , 40.0 minutes, and 35.0 seconds.
- * A runner runs 22.906379851362868 kilometers per hour.
+ * 3.4x + 50.2y = 44.50
+ * 2.1x + 0.55y = 5.90
+ * x = 2.623901496861419
+ * y = 0.7087397392563978
  * */
