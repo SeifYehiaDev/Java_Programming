@@ -11,7 +11,7 @@ public class Listing_01_06_ShowLogicErrors {
         System.out.println("Celsius 35 is Fahrenheit degree ");
         System.out.println((9 / 5 * 35 + 32));
         // You will get Fahrenheit 67 degrees, which is wrong. It should be 95.0.
-        System.out.println("_________________ correct result ______________________");
+        System.out.println("_________________ correct result ______________________ ");
         System.out.println("Celsius 35 is Fahrenheit degree ");
         System.out.println((9.0 / 5 * 35 + 32));
     }
