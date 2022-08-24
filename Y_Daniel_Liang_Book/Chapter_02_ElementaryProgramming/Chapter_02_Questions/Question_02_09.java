@@ -17,8 +17,8 @@ package Chapter_02_Questions;
 //                                                 _Solution_
 public class Question_02_09 {
     public static void main(String[] args) {
-        double miles = 100, kilometers;
-        final double KILOMETERS_PER_MILE = 1.609;
+        double miles = 100D, kilometers;
+        final double KILOMETERS_PER_MILE = 1.609D;
         kilometers = miles * KILOMETERS_PER_MILE;
         System.out.println("kilometers = " + kilometers);
     }
