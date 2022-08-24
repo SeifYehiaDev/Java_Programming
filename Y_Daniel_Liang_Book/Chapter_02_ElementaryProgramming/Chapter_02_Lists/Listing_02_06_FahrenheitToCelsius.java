@@ -8,7 +8,7 @@ package Chapter_02_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_05_FahrenheitToCelsius {
+public class Listing_02_06_FahrenheitToCelsius {
     public static void main(String[] args) {
         /*
          *                 5
