@@ -6,8 +6,6 @@
 
 package Chapter_02_Questions;
 
-import java.util.Scanner;
-
 /*                                                 _Question_
  * Which of the following are the same as 52.534?
  * 5.2534e+1, 0.52534e+2, 525.34e-1, 5.2534e+0
