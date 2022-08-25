@@ -15,8 +15,12 @@ package Chapter_02_Questions;
 public class Question_02_24 {
     public static void main(String[] args) {
         double a = 6.5, b = 2.0;
-        a += a + 1; // =====> a = a + a + 1 ; =====> a = 6.5 + 6.5 + 1 = 14.0
+        a += a + 1; // =====> a = a + a + 1 =====> a = 6.5 + 6.5 + 1 = 14.0
         System.out.println("a = " + a);
+        a = 6 ;
+        a /= 2 ; // =====> a = a / 2 =====> a = 6 / 2 = 3.0
+        System.out.println("a = " + a);
+        System.out.println("_____________________________________________________");
         System.out.println("b += 2 =====> " + (b += 2));
         System.out.println("b = " + b);
     }
@@ -24,6 +28,8 @@ public class Question_02_24 {
 
 /*                                                 _Output_
  * a = 14.0
+ * a = 3.0
+ * _____________________________________________________
  * b += 2 =====> 4.0
  * b = 4.0
  * */
