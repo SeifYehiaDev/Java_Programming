@@ -6,8 +6,6 @@
 
 package Chapter_02_Questions;
 
-import java.util.Scanner;
-
 /*                                                 _Question_
  * Which of the following are correct literals?
  * 5_2534e+1, _2534, 5_2, 5_
