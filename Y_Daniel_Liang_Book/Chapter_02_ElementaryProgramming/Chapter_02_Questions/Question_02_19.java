@@ -6,8 +6,6 @@
 
 package Chapter_02_Questions;
 
-import java.util.Scanner;
-
 /*                                                 _Question_
  * Which of the following are correct literals for floating-point numbers?
  * 12.3, 12.3e+2, 23.4e-2, –334.4, 20.5, 39F, 40D
