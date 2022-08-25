@@ -22,7 +22,6 @@ public class Question_02_23 {
         * 6- Obtain the total hours totalHours by dividing totalMinutes by 60
         * 7- Compute the current hour from totalHours % 24
         * */
-
     }
 }
 
