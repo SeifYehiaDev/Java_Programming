@@ -6,8 +6,6 @@
 
 package Chapter_02_Questions;
 
-import java.util.Scanner;
-
 /*                                                 _Question_
  * How many accurate digits are stored in a float or double type variable?
  * */
