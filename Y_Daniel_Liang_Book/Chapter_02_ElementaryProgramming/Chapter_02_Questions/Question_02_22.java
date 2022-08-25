@@ -1,6 +1,10 @@
-package Chapter_02_Questions;
+/*
+ * Author : Seif Yehia Esmail Abdel-Aal
+ * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
+ * Created on : 25/8/2022
+ * */
 
-import java.util.Scanner;
+package Chapter_02_Questions;
 
 /*                                                 _Question_
  * How would you write the following arithmetic expression in Java?
@@ -15,7 +19,7 @@ import java.util.Scanner;
 //                                                 _Solution_
 public class Question_02_22 {
     public static void main(String[] args) {
-        int r = 1, a = 2, b = 3, c = 4, d = 5 ,t = 6;
+        int r = 1, a = 2, b = 3, c = 4, d = 5, t = 6;
         double equationOne, equationTwo;
         equationOne = 4.0 / (3 * (r + 34)) - 9 * (a + b * c) + (3.0 + d * (2 + a)) / (a + b * d);
         System.out.println("equationOne = " + equationOne);
