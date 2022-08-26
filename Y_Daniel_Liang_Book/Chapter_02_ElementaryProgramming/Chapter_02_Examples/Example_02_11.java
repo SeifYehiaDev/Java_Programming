@@ -6,7 +6,7 @@
 
 package Chapter_02_Examples;
 
-public class Example_02_10 {
+public class Example_02_11 {
     public static void main(String[] args) {
         int sum = 0;
         sum += 4.5;
