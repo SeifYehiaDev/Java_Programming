@@ -8,7 +8,7 @@ package Chapter_02_Examples;
 
 public class Example_02_09 {
     public static void main(String[] args) {
-        System.out.println("1 / 2 = " + 1 / 2);
+        System.out.println("1 / 2 = " +  1 / 2);
         System.out.println("((double) 1 / 2) == (1.0 / 2) = " + (double) 1 / 2);
         System.out.println("(double) (1 / 2) = " + (double) (1 / 2));
     }
