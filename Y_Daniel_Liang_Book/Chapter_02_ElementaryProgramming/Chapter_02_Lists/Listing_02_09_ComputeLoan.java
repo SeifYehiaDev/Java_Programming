@@ -19,8 +19,8 @@ public class Listing_02_09_ComputeLoan {
         numberOfYears = input.nextInt();
         System.out.print("Enter loan amount, e.g., 120000.95: ");
         loanAmount = input.nextDouble();
-        monthlyInterestRate = annualInterestRate / 1200;
-        monthlyPayment = loanAmount * monthlyInterestRate / (1- 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12));
+        monthlyInterestRate = annualInterestRate / (100 * 12);
+        monthlyPayment = loanAmount * monthlyInterestRate / (1 - 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12));
         totalPayment = monthlyPayment * numberOfYears * 12;
         System.out.println("The monthly payment is $" + (int) (monthlyPayment * 100) / 100.0);
         System.out.println("The total payment is $" + (int) (totalPayment * 100) / 100.0);
