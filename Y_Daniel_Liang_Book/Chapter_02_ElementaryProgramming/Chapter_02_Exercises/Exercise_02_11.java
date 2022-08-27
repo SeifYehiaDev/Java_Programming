@@ -31,7 +31,7 @@ public class Exercise_02_11 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of years: ");
         numberOfYears = input.nextInt();
-        population = CURRENT_POPULATION + (((NUMBER_OF_SECOND_IN_YEAR / SECOND_OF_BIRTH) - (NUMBER_OF_SECOND_IN_YEAR / SECOND_OF_DEATH) + (NUMBER_OF_SECOND_IN_YEAR / SECOND_OF_NEW_IMMIGRANT)) * numberOfYears);
+        population = CURRENT_POPULATION + (((NUMBER_OF_SECOND_IN_YEAR /  SECOND_OF_BIRTH) - (NUMBER_OF_SECOND_IN_YEAR / SECOND_OF_DEATH) + (NUMBER_OF_SECOND_IN_YEAR / SECOND_OF_NEW_IMMIGRANT)) * numberOfYears);
         System.out.println("The population in " + numberOfYears + " years is " + (int) Math.ceil(population));
     }
 }
