@@ -19,9 +19,8 @@ import java.util.Scanner;
 public class Exercise_02_07 {
     public static void main(String[] args) {
         final long NUMBER_OF_MINUTES_IN_YEAR = 525600L; // 365 * 24 * 60 = 525600 MINUTES
-        final int NUMBER_OF_MINUTES_IN_Day = 1440; // 24 * 60 = 1440
-        long minutes;
-        long years, days;
+        final int NUMBER_OF_MINUTES_IN_Day = 1440; // 24 * 60 = 1440 MINUTES
+        long minutes, years, days;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number of minutes: ");
         minutes = input.nextLong();
