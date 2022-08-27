@@ -29,6 +29,7 @@ public class Exercise_02_01 {
         System.out.println((int) celsius + " Celsius is " + fahrenheit + " Fahrenheit");
     }
 }
+
 /*                                                 _Output_
  * Enter a degree in Celsius: 43
  * 43 Celsius is 109.4 Fahrenheit
