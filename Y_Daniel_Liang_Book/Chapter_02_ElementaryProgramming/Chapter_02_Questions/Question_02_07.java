@@ -12,16 +12,24 @@ package Chapter_02_Questions;
 //                                                 _Solution_
 public class Question_02_07 {
     public static void main(String[] args) {
-        final int SIZE = 20;
         /*
          * What are the benefits of using constants?
-         * it can not change on any place because it is constant
+         * 1- you don't have to repeatedly type the same value if it is used multiple times.
+         * 2- if you have to change the constant value (e.g., from 3.14 to 3.14159 for PI),
+         * you need to change it only in a single location in the source code.
+         * 3- Descriptive name for a constant makes the program easy to read.
          * */
-        // SIZE = 30; Error
-        System.out.println("SIZE = " + SIZE);
+
+        /*
+         * Declare an int constant SIZE with value 20.
+         * final (Keyword) + DataType + Identify(NameOfVariable) = Value  <========== initialization the variable is must
+         * name of constant variable should be an upper case like PI , SIZE , MAX_VALUE
+         * */
+        final int SIZE = 20;
+        System.out.println("SIZE is a constant variable is equal " + SIZE);
     }
 }
 
 /*                                                 _Output_
- * SIZE = 20
+ * SIZE is a constant variable is equal 20
  * */
