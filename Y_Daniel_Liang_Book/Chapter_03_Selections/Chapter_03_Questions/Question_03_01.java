@@ -27,5 +27,4 @@ public class Question_03_01 {
 }
 
 /*                                                 _Output_
- *
  * */
