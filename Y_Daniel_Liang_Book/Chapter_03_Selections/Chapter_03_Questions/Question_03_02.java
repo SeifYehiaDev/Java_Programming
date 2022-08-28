@@ -19,8 +19,8 @@ package Chapter_03_Questions;
 public class Question_03_02 {
     public static void main(String[] args) {
         int x = 1;
-        System.out.println("(x > 0)  = " + (x > 0));   // true
-        System.out.println("(x < 0)  = " + (x < 0));   // false
+        System.out.println("(x > 0)  = " + (x > 0));  // true
+        System.out.println("(x < 0)  = " + (x < 0));  // false
         System.out.println("(x != 0) = " + (x != 0)); // true
         System.out.println("(x >= 0) = " + (x >= 0)); // true
         System.out.println("(x != 1) = " + (x != 1)); // false
