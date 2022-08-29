@@ -8,7 +8,7 @@ package Chapter_03_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_04_ComputeAndInterpretBMI {
+public class Listing_03_04_ComputeAndInterpretBMI {
     public static void main(String[] args) {
         double bmi, heightInInches, weightInPounds;
         final double POUND_PER_KILOGRAM = 0.45359237D, INCH_PER_METER = 0.0254D;
