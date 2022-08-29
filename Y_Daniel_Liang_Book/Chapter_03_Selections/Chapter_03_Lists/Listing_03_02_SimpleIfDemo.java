@@ -8,7 +8,7 @@ package Chapter_03_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_02_SimpleIfDemo {
+public class Listing_03_02_SimpleIfDemo {
     public static void main(String[] args) {
         int number;
         Scanner input = new Scanner(System.in);
