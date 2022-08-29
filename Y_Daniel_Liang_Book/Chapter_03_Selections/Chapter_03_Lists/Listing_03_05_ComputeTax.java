@@ -8,7 +8,7 @@ package Chapter_03_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_05_ComputeTax {
+public class Listing_03_05_ComputeTax {
     public static void main(String[] args) {
         double income, tax = 0.0;
         int status;
