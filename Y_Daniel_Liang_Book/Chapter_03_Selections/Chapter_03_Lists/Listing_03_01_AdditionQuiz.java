@@ -8,7 +8,7 @@ package Chapter_03_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_01_AdditionQuiz {
+public class Listing_03_01_AdditionQuiz {
     public static void main(String[] args) {
         int numberOne, numberTwo, answer;
         Scanner input = new Scanner(System.in);
