@@ -8,7 +8,7 @@ package Chapter_03_Lists;
 
 import java.util.Scanner;
 
-public class Listing_02_03_SubtractionQuiz {
+public class Listing_03_03_SubtractionQuiz {
     public static void main(String[] args) {
         int numberOne, numberTwo, answer;
         Scanner input = new Scanner(System.in);
