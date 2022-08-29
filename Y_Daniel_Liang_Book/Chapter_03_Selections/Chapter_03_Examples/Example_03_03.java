@@ -9,7 +9,7 @@ package Chapter_03_Examples;
 public class Example_03_03 {
     public static void main(String[] args) {
         double radius = -5, area;
-        System.out.println("The radius is "+ radius);
+        System.out.println("The radius is "+radius);
         if (radius >= 0);{
             area = Math.pow(radius, 2.0) * Math.PI;
             System.out.println("area = " + area);
