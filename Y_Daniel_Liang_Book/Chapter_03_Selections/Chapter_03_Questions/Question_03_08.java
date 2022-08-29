@@ -24,16 +24,24 @@ package Chapter_03_Questions;
 
 public class Question_03_08 {
     public static void main(String[] args) {
-        System.out.println("Case 1 when x = 3 & y = 2");
-        if_else_condition(3, 2);
+        int x, y;
+        x = 3;
+        y = 2;
+        System.out.println("Case 1 when x = " + x + " & y = " + y);
+        if_else_condition(x, y);
         // no actions
         System.out.println("**********************************");
-        System.out.println("Case 2 when x = 3 & y = 4");
-        if_else_condition(3, 4);
-        // z = 3 + 4 = 7
+        x = 3;
+        y = 4;
+        System.out.println("Case 2 when x = " + x + " & y = " + y);
+        if_else_condition(x, y);
+        // z = 3 + 4 = 7;
         System.out.println("**********************************");
-        System.out.println("Case 3 when x = 2 & y = 2");
-        if_else_condition(2, 2);
+        x = 2;
+        y = 2;
+        System.out.println("Case 3 when x = " + x + " & y = " + y);
+        if_else_condition(x, y);
+        // x = 2
     }
 
     public static void if_else_condition(int x, int y) {
