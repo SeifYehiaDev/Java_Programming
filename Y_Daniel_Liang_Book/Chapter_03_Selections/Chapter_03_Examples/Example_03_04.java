@@ -8,7 +8,7 @@ package Chapter_03_Examples;
 
 public class Example_03_04 {
     public static void main(String[] args) {
-        int x = 6;
+        int x = 5;
         boolean isOdd = x % 2 == 1;
         System.out.println("x = " + x);
         if (isOdd)
@@ -20,5 +20,5 @@ public class Example_03_04 {
 
 /*                                                 _Output_
  * x = 6
- * x is even number
+ * x is odd number
  * */
