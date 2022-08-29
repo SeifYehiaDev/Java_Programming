@@ -52,5 +52,11 @@ public class Question_03_09 {
 }
 
 /*                                                 _Output_
- *
+ * Case 1 when x = 2 & y = 3
+ * **********************************
+ * Case 2 when x = 3 & y = 2
+ * x is 3
+ * **********************************
+ * Case 3 when x = 3 & y = 3
+ * z is 6
  * */
