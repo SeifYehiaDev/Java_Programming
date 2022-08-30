@@ -19,24 +19,20 @@ public class Listing_03_08_Lottery {
             System.out.println("The lottery number is " + lottery);
         else
             System.out.println("The lottery number is 0" + lottery);
-        if (guess >= 0 && guess / 100 == 0) {
-
-            if (guess == lottery)
-                System.out.println("Exact match: you win $10,000");
-            else {
-                guessDigitTwo = guess % 10;
-                guessDigitOne = guess / 10;
-                lotteryDigitTwo = lottery % 10;
-                lotteryDigitOne = lottery / 10;
-                if (guessDigitTwo == lotteryDigitOne && guessDigitOne == lotteryDigitTwo)
-                    System.out.println("Match all digits: you win $3,000");
-                else if (lotteryDigitOne == guessDigitOne || lotteryDigitOne == guessDigitTwo || lotteryDigitTwo == guessDigitOne || lotteryDigitTwo == guessDigitTwo)
-                    System.out.println("Match one digit: you win $1,000");
-                else
-                    System.out.println("Sorry, no match");
-            }
-        } else
-            System.out.println("Error: your lottery more than two digits or negative number");
+        if (guess == lottery)
+            System.out.println("Exact match: you win $10,000");
+        else {
+            guessDigitTwo = guess % 10;
+            guessDigitOne = guess / 10;
+            lotteryDigitTwo = lottery % 10;
+            lotteryDigitOne = lottery / 10;
+            if (guessDigitTwo == lotteryDigitOne && guessDigitOne == lotteryDigitTwo)
+                System.out.println("Match all digits: you win $3,000");
+            else if (lotteryDigitOne == guessDigitOne || lotteryDigitOne == guessDigitTwo || lotteryDigitTwo == guessDigitOne || lotteryDigitTwo == guessDigitTwo)
+                System.out.println("Match one digit: you win $1,000");
+            else
+                System.out.println("Sorry, no match");
+        }
     }
 }
 
