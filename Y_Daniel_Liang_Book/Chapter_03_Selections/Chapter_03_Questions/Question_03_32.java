@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Question_03_32 {
     public static void main(String[] args) {
         java.util.Scanner input = new Scanner(System.in);
-        System.out.print("Enter a integer day: ");
+        System.out.print("Enter an integer day: ");
         switch (input.nextInt()) {
             default:
                 System.out.println("Invalid day");
@@ -48,6 +48,6 @@ public class Question_03_32 {
 }
 
 /*                                                 _Output_
- * Enter a integer day: 1
- * Monday
+ * Enter an integer day: 5
+ * Friday
  * */
