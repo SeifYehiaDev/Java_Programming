@@ -23,6 +23,7 @@ public class Question_03_29 {
          * 3- int
          * 4- character
          * 5- String
+         * long & boolean & float & double not accepted
          *
          * If the keyword break is not used after a case is processed, what is the next statement to be executed?
          * executed the next case
