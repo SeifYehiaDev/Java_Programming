@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Exercise_03_02 {
     public static void main(String[] args) {
         int numberOne, numberTwo, numberThree, answer;
-        java.util.Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         numberOne = (int) (1 + Math.random() * (50 - 1)); // generate random number between 1 - 50
         numberTwo = (int) (51 + Math.random() * (100 - 51)); // generate random number between 51 - 100
         numberThree = (int) (101 + Math.random() * (150 - 101)); // generate random number between 101 - 150
