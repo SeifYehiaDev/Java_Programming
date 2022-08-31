@@ -10,14 +10,16 @@ import java.util.Scanner;
 
 public class Listing_03_04_ComputeAndInterpretBMI {
     public static void main(String[] args) {
-        double bmi, heightInInches, weightInPounds;
-        final double POUND_PER_KILOGRAM = 0.45359237D, INCH_PER_METER = 0.0254D;
+        double bmi, height, weight;
+        final double KILOGRAMS_PER_POUND = 0.45359237D, METERS_PER_INCH = 0.0254D;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter weight in pounds: ");
-        weightInPounds = input.nextDouble();
+        weight = input.nextDouble();
         System.out.print("Enter height in inches: ");
-        heightInInches = input.nextDouble();
-        bmi = weightInPounds * POUND_PER_KILOGRAM / Math.pow((heightInInches * INCH_PER_METER), 2.0);
+        height = input.nextDouble();
+        weight *= KILOGRAMS_PER_POUND;
+        height *= METERS_PER_INCH;
+        bmi = weight / Math.pow((height), 2.0);
         System.out.println("BMI is " + bmi);
         if (bmi < 18.5)
             System.out.println("Underweight");
