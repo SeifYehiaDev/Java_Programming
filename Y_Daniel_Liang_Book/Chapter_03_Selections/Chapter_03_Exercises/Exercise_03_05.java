@@ -17,7 +17,7 @@ import java.util.Scanner;
 public class Exercise_03_05 {
     public static void main(String[] args) {
         int today, numberOfDays;
-        java.util.Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter today's day: ");
         today = input.nextInt();
         System.out.print("Enter the number of days elapsed since today: ");
