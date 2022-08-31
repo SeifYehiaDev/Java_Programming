@@ -36,6 +36,9 @@ public class Question_03_12 {
         isYes = count % 10 == 0;
         if (isYes)
             newLine = true;
+        // the correct answer
+        newLine = false;
+        newLine = count % 10 == 0;
 
     }
 }
