@@ -24,7 +24,7 @@ import java.util.Scanner;
 public class Exercise_03_01 {
     public static void main(String[] args) {
         double a, b, c, r1, r2, discriminant;
-        java.util.Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter a, b, c: ");
         a = input.nextDouble();
         b = input.nextDouble();
