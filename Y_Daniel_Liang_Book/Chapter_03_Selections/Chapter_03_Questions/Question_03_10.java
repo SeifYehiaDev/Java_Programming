@@ -66,14 +66,14 @@ public class Question_03_10 {
 
     public static void findYourScore(int score) {
         if (score >= 0.0 && score <= 100.0) {
-            if (score >= 90.0)
-                System.out.println("A");
-            else if (score >= 80.0)
-                System.out.println("B");
-            else if (score >= 70.0)
-                System.out.println("C");
-            else if (score >= 60.0)
+            if (score <= 60.0)
                 System.out.println("D");
+            else if (score <= 70.0)
+                System.out.println("C");
+            else if (score <= 80.0)
+                System.out.println("B");
+            else if (score <= 90.0 || score <= 100.0)
+                System.out.println("A");
             else
                 System.out.println("F");
         } else
