@@ -17,7 +17,7 @@ public class Exercise_03_06 {
     public static void main(String[] args) {
         double bmi, height, weight, inches, feet;
         final double KILOGRAMS_PER_POUND = 0.45359237D, METERS_PER_INCH = 0.0254D, FEET_PER_INCH = 0.0833333D;
-        java.util.Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter weight in pounds: ");
         weight = input.nextDouble();
         System.out.print("Enter feet: ");
