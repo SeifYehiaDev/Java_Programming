@@ -28,10 +28,7 @@ public class Exercise_03_11 {
             System.out.println("Error: month should be between 1 - 12 and year grater than 0.");
             System.exit(0);
         }
-        if (intMonth == 2)
-            numberOfDays = (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 29 : 28;
-        else if (intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11)
-            numberOfDays = 30;
+        numberOfDays = (intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11) ? (intMonth == 2) ? 30 : 31 : (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 29 : 28;
         switch (intMonth) {
             case 1: stringMonth = "January" ;break;
             case 2: stringMonth = "February"; break;
