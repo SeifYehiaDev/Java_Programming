@@ -10,31 +10,31 @@ import java.util.Scanner;
 
 public class Listing_03_03_SubtractionQuiz {
     public static void main(String[] args) {
-        int numberOne, numberTwo, answer;
+        int numberOne, numberTwo, correctAnswer, answer;
         Scanner input = new Scanner(System.in);
         // Generate two random single-digit integers
         numberOne = (int) (Math.random() * 10);
         numberTwo = (int) (Math.random() * 10);
         // If number1 < number2, swap number1 with number2
-        if (numberTwo > numberOne) {
+/*        if (numberTwo > numberOne) {
             int temp = numberOne;
             numberOne = numberTwo;
             numberTwo = temp;
-        }
-   /*     if (numberTwo > numberOne) {
+        }*/
+        if (numberTwo > numberOne) {
             // swap number1 with number2 without temp
             numberTwo = numberTwo + numberOne;
             numberOne = numberTwo - numberOne;
             numberTwo = numberTwo - numberOne;
-        }*/
-        // Prompt the student to answer ”What is number1 – number2?”
+        }
+        correctAnswer = numberOne - numberTwo;
+        // Prompt the student to answer "What is number1 – number2?"
         System.out.println("What is " + numberOne + " - " + numberTwo + "?");
         answer = input.nextInt();
-        boolean isAnswer = numberOne - numberTwo == answer;
-        if (isAnswer)
+        if (correctAnswer == answer)
             System.out.println("you are correct!");
         else
-            System.out.println("Your answer is Wrong\n" + numberOne + " - " + numberTwo + " should be " + (numberOne - numberTwo));
+            System.out.println("Your answer is Wrong\n" + numberOne + " - " + numberTwo + " should be " + correctAnswer);
     }
 }
 
