@@ -28,7 +28,12 @@ public class Exercise_03_12 {
     }
 }
 
-/*                                                 _Output_
+/*                                                 _Output One_
  * Enter a three-digit integer: 121
  * 121 is a palindrome
+ * */
+
+/*                                                 _Output Two_
+ * Enter a three-digit integer: 123
+ * 123 is not a palindrome
  * */
