@@ -28,20 +28,44 @@ public class Exercise_03_11 {
             System.out.println("Error: month should be between 1 - 12 and year grater than 0.");
             System.exit(0);
         }
-        numberOfDays = (intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11) ? (intMonth == 2) ? 30 : 31 : (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 29 : 28;
+        numberOfDays = (intMonth == 2) ? (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 29 : 28 : (intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11) ? 30 : 31;
         switch (intMonth) {
-            case 1: stringMonth = "January" ;break;
-            case 2: stringMonth = "February"; break;
-            case 3: stringMonth = "March"; break;
-            case 4: stringMonth = "April"; break;
-            case 5: stringMonth = "May"; break;
-            case 6: stringMonth = "June"; break;
-            case 7: stringMonth = "July"; break;
-            case 8: stringMonth = "August"; break;
-            case 9: stringMonth = "September"; break;
-            case 10: stringMonth = "October"; break;
-            case 11: stringMonth = "November"; break;
-            default: stringMonth = "December"; break;
+            case 1:
+                stringMonth = "January";
+                break;
+            case 2:
+                stringMonth = "February";
+                break;
+            case 3:
+                stringMonth = "March";
+                break;
+            case 4:
+                stringMonth = "April";
+                break;
+            case 5:
+                stringMonth = "May";
+                break;
+            case 6:
+                stringMonth = "June";
+                break;
+            case 7:
+                stringMonth = "July";
+                break;
+            case 8:
+                stringMonth = "August";
+                break;
+            case 9:
+                stringMonth = "September";
+                break;
+            case 10:
+                stringMonth = "October";
+                break;
+            case 11:
+                stringMonth = "November";
+                break;
+            default:
+                stringMonth = "December";
+                break;
         }
         System.out.println(stringMonth + " " + year + " had " + numberOfDays + " days.");
     }
