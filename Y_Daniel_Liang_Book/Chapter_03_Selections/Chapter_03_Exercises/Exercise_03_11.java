@@ -65,7 +65,6 @@ public class Exercise_03_11 {
                 break;
             default:
                 stringMonth = "December";
-                break;
         }
         System.out.println(stringMonth + " " + year + " had " + numberOfDays + " days.");
     }
