@@ -22,19 +22,18 @@ public class Exercise_03_21 {
             error("Error: year is a negative number.");
         System.out.print("Enter month: 1-12: ");
         m = input.nextInt();
-        if (m >= 1 && m <= 12)
-            numberOfDays = (m == 2) ? (m % 4 == 0 && m % 100 != 0 || m % 400 == 0) ? 29 : 28 : (m == 4 || m == 6 || m == 9 || m == 11) ? 30 : 31;
-        else
+        if (m >= 1 && m <= 12) {
+            numberOfDays = (m == 2) ? (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) ? 29 : 28 : (m == 4 || m == 6 || m == 9 || m == 11) ? 30 : 31;
+            if (m == 1 || m == 2) {
+                m = (m == 1) ? 13 : 14;
+                year--;
+            }
+        } else
             error("Error: month should be between 1 and 12.");
         System.out.print("Enter the day of the month: 1-" + numberOfDays + ": ");
         q = input.nextInt();
         if (q < 1 || q > numberOfDays)
             error("Error: number of days should be between 1 and " + numberOfDays);
-        if (m == 1 || m == 2)
-        {
-            m = (m == 1) ? 13 : 14;
-            year--;
-        }
         j = year / 100;
         k = year % 100;
         h = (q + (26 * (m + 1)) / 10 + k + k / 4 + j / 4 + 5 * j) % 7;
@@ -49,13 +48,26 @@ public class Exercise_03_21 {
     public static String dayOfTheWeek(int day) {
         String stringDay = null;
         switch (day) {
-            case 0: stringDay = "Saturday";break;
-            case 1: stringDay = "Sunday";break;
-            case 2: stringDay = "Monday";break;
-            case 3: stringDay = "Tuesday";break;
-            case 4: stringDay = "Wednesday";break;
-            case 5: stringDay = "Thursday";break;
-            case 6: stringDay = "Friday";
+            case 0:
+                stringDay = "Saturday";
+                break;
+            case 1:
+                stringDay = "Sunday";
+                break;
+            case 2:
+                stringDay = "Monday";
+                break;
+            case 3:
+                stringDay = "Tuesday";
+                break;
+            case 4:
+                stringDay = "Wednesday";
+                break;
+            case 5:
+                stringDay = "Thursday";
+                break;
+            case 6:
+                stringDay = "Friday";
         }
         return stringDay;
     }
