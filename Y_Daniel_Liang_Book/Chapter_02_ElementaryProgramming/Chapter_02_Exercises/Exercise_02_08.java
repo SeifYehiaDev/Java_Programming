@@ -31,12 +31,13 @@ public class Exercise_02_08 {
         currentMinute = totalMinutes % 60;
         totalHours = totalMinutes / 60;
         currentHour = totalHours % 24;
+        //currentHour += offset;
         currentHour = currentHour + offset;
         System.out.println("Current time is " + currentHour + ":" + currentMinute + ":" + currentSecond);
     }
 }
 
 /*                                                 _Output_
- * Enter the time zone offset to GMT: -5
- * Current time is 8:45:58
+ * Enter the time zone offset to GMT: 2
+ * Current time is 6:14:44
  * */
