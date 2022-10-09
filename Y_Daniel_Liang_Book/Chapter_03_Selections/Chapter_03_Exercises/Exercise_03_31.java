@@ -17,16 +17,20 @@ import java.util.Scanner;
 //                                                 _Solution_
 public class Exercise_03_31 {
     public static void main(String[] args) {
-        double amount,exchangeRate;
+        double amount, exchangeRate;
         int stateFormUser;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the exchange rate from dollars to RMB: ");
         exchangeRate = input.nextDouble();
         System.out.print("Enter 0 to convert dollars to RMB and 1 vice versa: ");
         stateFormUser = input.nextInt();
+        if (stateFormUser != 0 & stateFormUser != 1) {
+            System.out.print("Incorrect input");
+            System.exit(1);
+        }
         System.out.print("Enter the " + ((stateFormUser == 0) ? "dollar" : "RMB") + " amount: ");
         amount = input.nextDouble();
-        System.out.println((stateFormUser == 0) ? "$" + amount + " is " + (Math.round(amount * exchangeRate * 100) / 100.0) + " yuan" : amount + " yuan" + " is $" + (Math.round(amount / exchangeRate * 100) / 100.0));
+        System.out.println((stateFormUser == 0) ? "$" + amount + " is " + Math.round(amount * exchangeRate * 100) / 100.0 + " yuan" : amount + " yuan" + " is $" + Math.round(amount / exchangeRate * 100) / 100.0);
     }
 }
 
@@ -39,7 +43,13 @@ public class Exercise_03_31 {
 
 /*                                                 _Output Two_
  * Enter the exchange rate from dollars to RMB: 6.81
- * Enter 0 to convert dollars to RMB and 1 vice versa: 5
+ * Enter 0 to convert dollars to RMB and 1 vice versa: 1
  * Enter the RMB amount: 10000
  * 10000.0 yuan is $1468.43
+ * */
+
+/*                                                 _Output Three_
+ * Enter the exchange rate from dollars to RMB: 6.81
+ * Enter 0 to convert dollars to RMB and 1 vice versa: 5
+ * Incorrect input
  * */
