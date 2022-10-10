@@ -15,7 +15,7 @@ import java.util.Scanner;
 //                                                 _Solution_
 public class Exercise_03_32 {
     public static void main(String[] args) {
-        double x0, y0, x1, y1, x2, y2, value;
+        double x0, y0, x1, y1, x2, y2, position;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter three points for p0, p1, and p2: ");
         x0 = input.nextDouble();
@@ -24,8 +24,8 @@ public class Exercise_03_32 {
         y1 = input.nextDouble();
         x2 = input.nextDouble();
         y2 = input.nextDouble();
-        value = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
-        System.out.println("(" + x2 + ", " + y2 + ") " + ((value > 0) ? "is on the left side of " : (value == 0) ? "is on " : "is on the right side of ") + "the line from (" + x0 + ", " + y0 + ") to (" + x1 + ", " + y1 + ")");
+        position = (x1 - x0) * (y2 - y0) - (x2 - x0) * (y1 - y0);
+        System.out.println("(" + x2 + ", " + y2 + ") " + ((position > 0) ? "is on the left side of " : (position == 0) ? "is on " : "is on the right side of ") + "the line from (" + x0 + ", " + y0 + ") to (" + x1 + ", " + y1 + ")");
     }
 }
 
