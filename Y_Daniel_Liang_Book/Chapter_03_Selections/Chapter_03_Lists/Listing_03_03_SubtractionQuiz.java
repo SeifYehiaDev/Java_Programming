@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 public class Listing_03_03_SubtractionQuiz {
     public static void main(String[] args) {
-        int numberOne, numberTwo, correctAnswer, answer;
+        int numberOne, numberTwo, answer, correctAnswer;
         Scanner input = new Scanner(System.in);
         // Generate two random single-digit integers
         numberOne = (int) (Math.random() * 10);
@@ -28,13 +28,9 @@ public class Listing_03_03_SubtractionQuiz {
             numberTwo = numberTwo - numberOne;
         }
         correctAnswer = numberOne - numberTwo;
-        // Prompt the student to answer "What is number1 – number2?"
-        System.out.println("What is " + numberOne + " - " + numberTwo + "?");
+        System.out.print("What's " + numberOne + " - " + numberTwo + "? ");
         answer = input.nextInt();
-        if (correctAnswer == answer)
-            System.out.println("you are correct!");
-        else
-            System.out.println("Your answer is Wrong\n" + numberOne + " - " + numberTwo + " should be " + correctAnswer);
+        System.out.println((correctAnswer == answer) ? "You are correct!" : "Your answer is wrong\n" + numberOne + " - " + numberTwo + " is " + correctAnswer);
     }
 }
 
