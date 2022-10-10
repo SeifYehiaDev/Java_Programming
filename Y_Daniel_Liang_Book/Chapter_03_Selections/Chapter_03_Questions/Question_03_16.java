@@ -25,8 +25,6 @@ public class Question_03_16 {
         System.out.println((int) (Math.random() * (50 - 10 + 1) + 10));
         System.out.println("d. Write an expression that returns 0 or 1 randomly.");
         System.out.println((int) (Math.random() * 2));
-        System.out.println("e. Write an expression that generate 6 digit");
-        System.out.println((int) (Math.random() * 999999));
     }
 }
 
@@ -39,6 +37,4 @@ public class Question_03_16 {
  * 12
  * d. Write an expression that returns 0 or 1 randomly.
  * 1
- * e. Write an expression that generate 6 digit
- * 551872
  * */
