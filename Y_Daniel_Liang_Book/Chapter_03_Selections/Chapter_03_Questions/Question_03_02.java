@@ -25,7 +25,7 @@ public class Question_03_02 {
         System.out.println("(x != 0)   = " + (x != 0));   // true
         System.out.println("(x >= 0)   = " + (x >= 0));   // true
         System.out.println("(x != 1)   = " + (x != 1));   // false
-        System.out.println("(x == 1.0) = " + (x == 1.0)); // false
+        System.out.println("(x == 1.0) = " + (x == 1.0)); // true
     }
 }
 
