@@ -11,7 +11,8 @@ public class Example_04_01 {
         /*
          * Math.sin(radians) || Math.cos(radians) || Math.tan(radians)
          * degree = Math.toDegrees(radians) || radians = Math.toRadians(Degrees)
-         * AngleInRadians = asin(AngleInDegree) || acos(AngleInDegree) || atan(AngleInDegree) ====> sin || cos || tan Inverse
+         * Inverse =====> asin , acos and atan
+         * AngleInRadians = asin(AngleInDegree) || acos(AngleInDegree) || atan(AngleInDegree) ====> sin || cos || tan
          * From degree to radians ====> * (PI / 180)
          * From radians to degree ====> / (PI / 180)
          * */
