@@ -7,7 +7,7 @@
 package Chapter_04_Questions;
 
 //                                                 _Question_
-/*True or false? The argument for trigonometric methods is an angle in radians.*/
+                    /*True or false? The argument for trigonometric methods is an angle in radians.*/
 //                                                 _Solution_
 public class Question_04_02 {
     public static void main(String[] args) {
