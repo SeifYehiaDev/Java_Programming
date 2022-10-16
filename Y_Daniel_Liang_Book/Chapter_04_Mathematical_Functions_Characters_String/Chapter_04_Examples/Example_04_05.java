@@ -20,4 +20,13 @@ public class Example_04_05 {
 }
 
 //                                                 _Output_
-/**/
+/*
+Generate random value between 0 and 1
+0
+Generate random value between -1 and 1
+1
+Generate random value between 50 and 100
+55
+Generate random value between -100 and -10
+-86
+*/
