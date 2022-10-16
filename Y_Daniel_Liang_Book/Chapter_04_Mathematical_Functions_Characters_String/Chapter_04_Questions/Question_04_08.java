@@ -20,17 +20,17 @@ public class Question_04_08 {
         System.out.println("ASCII code for 'a' is " + (int) 'a');
         System.out.println("ASCII code for 'b' is " + (int) 'b');
         System.out.println("___________________________________________");
-        System.out.println("Find out the character for the decimal code 40 " + (char) 40);
-        System.out.println("Find out the character for the decimal code 59 " + (char) 59);
-        System.out.println("Find out the character for the decimal code 79 " + (char) 79);
-        System.out.println("Find out the character for the decimal code 85 " + (char) 85);
-        System.out.println("Find out the character for the decimal code 90 " + (char) 90);
+        System.out.println("Find out the character for the decimal code 40 is " + (char) 40);
+        System.out.println("Find out the character for the decimal code 59 is " + (char) 59);
+        System.out.println("Find out the character for the decimal code 79 is " + (char) 79);
+        System.out.println("Find out the character for the decimal code 85 is " + (char) 85);
+        System.out.println("Find out the character for the decimal code 90 is " + (char) 90);
         System.out.println("___________________________________________");
-        System.out.println("Find out the character for the hexadecimal code 40 " + (char) 0x40);
-        System.out.println("Find out the character for the hexadecimal code 5A " + (char) 0x5A);
-        System.out.println("Find out the character for the hexadecimal code 71 " + (char) 0x71);
-        System.out.println("Find out the character for the hexadecimal code 72 " + (char) 0x72);
-        System.out.println("Find out the character for the hexadecimal code 7A " + (char) 0x7A);
+        System.out.println("Find out the character for the hexadecimal code 40 is " + (char) 0x40);
+        System.out.println("Find out the character for the hexadecimal code 5A is " + (char) 0x5A);
+        System.out.println("Find out the character for the hexadecimal code 71 is " + (char) 0x71);
+        System.out.println("Find out the character for the hexadecimal code 72 is " + (char) 0x72);
+        System.out.println("Find out the character for the hexadecimal code 7A is " + (char) 0x7A);
     }
 }
 
@@ -42,15 +42,15 @@ ASCII code for 'B' is 66
 ASCII code for 'a' is 97
 ASCII code for 'b' is 98
 ___________________________________________
-Find out the character for the decimal code 40 (
-Find out the character for the decimal code 59 ;
-Find out the character for the decimal code 79 O
-Find out the character for the decimal code 85 U
-Find out the character for the decimal code 90 Z
+Find out the character for the decimal code 40 is (
+Find out the character for the decimal code 59 is ;
+Find out the character for the decimal code 79 is O
+Find out the character for the decimal code 85 is U
+Find out the character for the decimal code 90 is Z
 ___________________________________________
-Find out the character for the hexadecimal code 40 @
-Find out the character for the hexadecimal code 5A Z
-Find out the character for the hexadecimal code 71 q
-Find out the character for the hexadecimal code 72 r
-Find out the character for the hexadecimal code 7A z
+Find out the character for the hexadecimal code 40 is @
+Find out the character for the hexadecimal code 5A is Z
+Find out the character for the hexadecimal code 71 is q
+Find out the character for the hexadecimal code 72 is r
+Find out the character for the hexadecimal code 7A is z
  */
