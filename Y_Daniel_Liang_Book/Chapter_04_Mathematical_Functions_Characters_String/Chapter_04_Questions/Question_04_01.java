@@ -9,7 +9,7 @@ package Chapter_04_Questions;
 //                                                 _Question_
 /*Evaluate the following method calls:*/
 //                                                 _Solution_
-public class Question_04_00 {
+public class Question_04_01 {
     public static void main(String[] args) {
         System.out.println("(a) Math.sqrt(4) = " + Math.sqrt(4)); // return 2.0
         System.out.println("(b) Math.sin(2 * Math.PI) = " + Math.sin(2 * Math.PI)); // return -2.4492935982947064E-16
