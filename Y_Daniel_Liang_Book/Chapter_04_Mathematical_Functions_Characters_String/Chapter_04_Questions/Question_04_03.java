@@ -7,18 +7,22 @@
 package Chapter_04_Questions;
 
 //                                                 _Question_
-            /*Write a statement that converts 47 degrees to radians and assigns the result to a
-            variable.*/
+            /*Write a statement that converts 47 degrees to radians and assigns the result to a variable.*/
 //                                                 _Solution_
 public class Question_04_03 {
     public static void main(String[] args) {
         final int DEGREES = 47;
         double radians = Math.toRadians(DEGREES);
         System.out.println("47 degrees are " + radians + " radians");
+        System.out.println("_________________ At the Same _________________");
+        radians = DEGREES * Math.PI / 180;
+        System.out.println("47 degrees are " + radians + " radians");
     }
 }
 
 //                                                 _Output_
 /*
+47 degrees are 0.8203047484373349 radians
+_________________ At the Same _________________
 47 degrees are 0.8203047484373349 radians
  */
