@@ -19,5 +19,7 @@ public class Example_04_19 {
 
 //                                                 _Output_
 /*
-
+The full name is "Seif Yehia"
+The first name is "Seif"
+The last name is "Yehia"
  */
