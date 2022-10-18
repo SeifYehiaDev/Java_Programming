@@ -25,5 +25,8 @@ public class Example_04_15 {
 
 //                                                 _Output_
 /*
-
+Enter the second string to compare: Hello
+The first string is Hello
+The second string is Hello
+string1 and string2 are different
  */
