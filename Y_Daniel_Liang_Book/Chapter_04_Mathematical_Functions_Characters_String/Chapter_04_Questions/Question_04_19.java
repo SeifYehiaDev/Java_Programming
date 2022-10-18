@@ -7,7 +7,7 @@
 package Chapter_04_Questions;
 
 //                                                 _Question_
-/**/
+            /*Evaluate the following expressions (write a program to verify your results):*/
 //                                                 _Solution_
 public class Question_04_19 {
     public static void main(String[] args) {
