@@ -37,7 +37,7 @@ public class Question_04_17 {
         System.out.println("it's not correct");
         System.out.println("_______________________________________________");
         System.out.println("(9) char c = s1.charAt(s1.length());");
-        System.out.println("it's not correct ===> run time error (Exception)");
+        System.out.println("it's not correct ===> run time error Exception ==> StringIndexOutOfBoundsException");
     }
 }
 
@@ -68,5 +68,5 @@ _______________________________________________
 it's not correct
 _______________________________________________
 (9) char c = s1.charAt(s1.length());
-it's not correct ===> run time error (Exception)
+it's not correct ===> run time error Exception ==> StringIndexOutOfBoundsException
  */
