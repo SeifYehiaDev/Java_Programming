@@ -7,7 +7,7 @@
 package Chapter_04_Questions;
 
 //                                                 _Question_
-/*Suppose that s1 and s2 are two strings. Which of the following statements or expressions are incorrect?*/
+        /*Suppose that s1 and s2 are two strings. Which of the following statements or expressions are incorrect?*/
 //                                                 _Solution_
 public class Question_04_17 {
     public static void main(String[] args) {
