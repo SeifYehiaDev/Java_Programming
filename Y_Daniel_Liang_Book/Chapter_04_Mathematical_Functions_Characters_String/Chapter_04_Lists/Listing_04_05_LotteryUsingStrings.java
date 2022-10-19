@@ -12,9 +12,13 @@ public class Listing_04_05_LotteryUsingStrings {
     public static void main(String[] args) {
         String lottery, guess;
         Scanner input = new Scanner(System.in);
-        lottery = (int) (Math.random() * 10) + "" + (int) (Math.random() * 10);
         System.out.print("Enter your lottery pick (two digits): ");
         guess = input.nextLine();
+        if (guess.length() != 2 || !(Character.isDigit(guess.charAt(0)) && Character.isDigit(guess.charAt(1)))) {
+            System.out.println("Error: input should be two digits");
+            System.exit(1);
+        }
+        lottery = (int) (Math.random() * 10) + "" + (int) (Math.random() * 10);
         System.out.println("The lottery number is " + lottery);
         System.out.println((lottery.equals(guess)) ? "Exact match: you win $10,000" : (lottery.charAt(0) == guess.charAt(1) && lottery.charAt(1) == guess.charAt(0)) ? "Match all digits: you win $3,000" : (lottery.charAt(0) == guess.charAt(0) || lottery.charAt(0) == guess.charAt(1) || lottery.charAt(1) == guess.charAt(0) || lottery.charAt(1) == guess.charAt(1)) ? "Match one digit: you win $1,000" : "Sorry, no match");
     }
