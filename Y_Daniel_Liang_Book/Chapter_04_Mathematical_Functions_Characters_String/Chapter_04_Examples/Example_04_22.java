@@ -22,6 +22,13 @@ public class Example_04_22 {
         System.out.printf("%3d#%2s#%4.2f\n", 1234, "Java", 51.6653); // 1234#Java#51.67
         System.out.printf("%8d%8s%8.1f\n", 1234, "Java", 5.6_3); // "    1234    Java     5.6"
         System.out.printf("%-8d%-8s%-8.1f \n", 1234, "Java", 5.6_3);// "1234    Java    5.6     "
+        System.out.println("__________________________________________________");
+        System.out.printf("%%b is a Boolean value\n");
+        System.out.printf("%%c is a character\n");
+        System.out.printf("%%d is a decimal integer\n");
+        System.out.printf("%%f is a floating-point number\n");
+        System.out.printf("%%e is a number in standard scientific notation\n");
+        System.out.printf("%%s is a string\n");
     }
 }
 
@@ -41,5 +48,11 @@ __________________________________________________
 1234#Java#51.67
     1234    Java     5.6
 1234    Java    5.6
-
+__________________________________________________
+%b is a Boolean value
+%c is a character
+%d is a decimal integer
+%f is a floating-point number
+%e is a number in standard scientific notation
+%s is a string
  */
