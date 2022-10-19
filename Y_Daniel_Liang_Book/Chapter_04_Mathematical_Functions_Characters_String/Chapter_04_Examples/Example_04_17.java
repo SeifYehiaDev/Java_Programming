@@ -22,7 +22,7 @@ public class Example_04_17 {
         String returnString = message.substring(0, (10 + 1)); // return "Welcome to "
         String newMessage = returnString.concat("Java");
         System.out.println("New message is \" ".concat(newMessage).concat("\""));
-        // System.out.println(message.substring(3, 1)); =====> runtime error
+        // System.out.println(message.substring(3, 1)); //=====> runtime error "StringIndexOutOfBoundsException"
     }
 }
 
