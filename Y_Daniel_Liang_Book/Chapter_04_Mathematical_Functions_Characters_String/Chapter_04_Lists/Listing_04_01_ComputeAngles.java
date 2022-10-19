@@ -12,7 +12,6 @@ public class Listing_04_01_ComputeAngles {
     public static void main(String[] args) {
         double points[][] = new double[3][2], sides[] = new double[3], angles[] = new double[3];
         int row, column;
-
         /*
          * x1 = points[0][0]  , y1 = points[0][1]
          * x2 = points[1][0]  , y2 = points[1][1]
