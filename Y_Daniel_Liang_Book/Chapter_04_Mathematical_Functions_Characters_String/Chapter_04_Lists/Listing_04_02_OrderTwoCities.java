@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class Listing_04_02_OrderTwoCities {
     public static void main(String[] args) {
-
         String cityOne, cityTwo;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first city: ");
