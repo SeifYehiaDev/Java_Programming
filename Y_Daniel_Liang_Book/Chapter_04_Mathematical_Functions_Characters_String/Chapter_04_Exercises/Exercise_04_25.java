@@ -1,0 +1,22 @@
+/*
+ * Author : Seif Yehia Esmail Abdel-Aal
+ * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
+ * Created on : 20/10/2022
+ * */
+
+package Chapter_04_Exercises;
+
+
+//                                                 _Question_
+/**/
+//                                                 _Solution_
+public class Exercise_04_25 {
+    public static void main(String[] args) {
+
+    }
+}
+
+//                                                 _Output_
+/*
+
+ */
