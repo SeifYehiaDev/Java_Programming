@@ -20,8 +20,8 @@ public class Exercise_04_13 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter: ");
         stringLetter = input.nextLine();
-        charLetter = stringLetter.charAt(0);
         validLength = stringLetter.length() == 1;
+        charLetter = stringLetter.charAt(0);
         if (!(validLength & Character.isLetter(charLetter))) {
             System.out.println((!validLength) ? "You must enter exactly one character" : charLetter + " is an invalid input");
             System.exit(1);
