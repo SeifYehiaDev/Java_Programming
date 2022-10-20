@@ -6,17 +6,17 @@
 
 package Chapter_04_Exercises;
 
-
 //                                                 _Question_
-/**/
+                    /*4.16 (Random character) Write a program that displays a random uppercase letter
+                    using the Math.random() method.*/
 //                                                 _Solution_
 public class Exercise_04_16 {
     public static void main(String[] args) {
-
+        System.out.println((char) (Math.random() * ('Z' - 'A' + 1) + 'A'));
     }
 }
 
 //                                                 _Output_
 /*
-
+Y
  */
