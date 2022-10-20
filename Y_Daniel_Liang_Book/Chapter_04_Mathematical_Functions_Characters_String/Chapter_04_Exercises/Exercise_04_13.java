@@ -22,7 +22,7 @@ public class Exercise_04_13 {
         stringLetter = input.nextLine();
         validLength = stringLetter.length() == 1;
         charLetter = stringLetter.charAt(0);
-        if (!(validLength & Character.isLetter(charLetter))) {
+        if (!(validLength && Character.isLetter(charLetter))) {
             System.out.println((!validLength) ? "You must enter exactly one character" : charLetter + " is an invalid input");
             System.exit(1);
         }
