@@ -26,7 +26,7 @@ public class Question_04_12 {
         System.out.println("_________________________");
         i = 97;
         c = (char) i;
-        System.out.println(c);
+        System.out.println("'" + c + "'");
     }
 }
 
