@@ -10,11 +10,16 @@ public class Example_04_03 {
     public static void main(String[] args) {
         /* The Rounding Methods
          * 1- ceil(x)  ===> x is rounded up to its nearest integer.
+         * ceil(double)  ===> double
          * 2- floor(x) ===> x is rounded down to its nearest integer.
+         * floor(double) ===> double
          * 3- rint(x)  ===> x is rounded up to its nearest integer.
+         * rint(double)  ===> double
          * 4- round(x)
          * Returns (int)Math.floor(x + 0.5) if x is a float and ===> float return int
          * Returns (long)Math.floor(x + 0.5) if x is a double   ===> double return long
+         * round(float) ===> int
+         * round(double) ===> long
          * */
         System.out.println("__________________Math.ceil(x)________________________");
         System.out.println("Math.ceil(2.0) = " + Math.ceil(2));
@@ -27,10 +32,17 @@ public class Example_04_03 {
         System.out.println("Math.floor(2.5) = " + Math.floor(2.5));
         System.out.println("Math.floor(2.9) = " + Math.floor(2.5));
         System.out.println("__________________Math.rint(x)________________________");
-        System.out.println("Math.rint(2.0) = " + Math.rint(2.0));
-        System.out.println("Math.rint(2.1) = " + Math.rint(2.1));
-        System.out.println("Math.rint(2.5) = " + Math.rint(2.5));
-        System.out.println("Math.rint(2.9) = " + Math.rint(2.5));
+        System.out.println("rint() work as round() but ..........");
+        // even integer number
+        System.out.println("even integer number");
+        System.out.println("Math.rint(2.4) = " + Math.rint(2.4)); // 2.0
+        System.out.println("Math.rint(2.5) = " + Math.rint(2.5)); // 2.0
+        System.out.println("Math.rint(2.6) = " + Math.rint(2.6)); // 3.0
+        // odd integer number
+        System.out.println("odd integer number");
+        System.out.println("Math.rint(3.4) = " + Math.rint(3.4)); // 3.0
+        System.out.println("Math.rint(3.5) = " + Math.rint(3.5)); // 4.0
+        System.out.println("Math.rint(3.6) = " + Math.rint(3.6)); // 4.0
         System.out.println("__________________Math.round(x)________________________");
         System.out.println("Math.round(2.0F) = " + Math.round(2.0F)); // return int  because x is float.
         System.out.println("Math.round(2.4F) = " + Math.round(2.4F)); // return int  because x is float.
@@ -52,10 +64,15 @@ Math.floor(2.1) = 2.0
 Math.floor(2.5) = 2.0
 Math.floor(2.9) = 2.0
 __________________Math.rint(x)________________________
-Math.rint(2.0) = 2.0
-Math.rint(2.1) = 2.0
+rint() work as round() but ..........
+even integer number
+Math.rint(2.4) = 2.0
 Math.rint(2.5) = 2.0
-Math.rint(2.9) = 2.0
+Math.rint(2.6) = 3.0
+odd integer number
+Math.rint(3.4) = 3.0
+Math.rint(3.5) = 4.0
+Math.rint(3.6) = 4.0
 __________________Math.round(x)________________________
 Math.round(2.0F) = 2
 Math.round(2.4F) = 2
