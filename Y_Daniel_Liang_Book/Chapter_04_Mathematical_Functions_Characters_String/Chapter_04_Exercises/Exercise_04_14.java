@@ -6,7 +6,6 @@
 
 package Chapter_04_Exercises;
 
-
 import java.util.Scanner;
 
 //                                                 _Question_
@@ -27,8 +26,7 @@ public class Exercise_04_14 {
             System.exit(1);
         }
         switch (charGrade) {
-            case 'A':
-                stringGrade = "4";break;
+            case 'A': stringGrade = "4";break;
             case 'B': stringGrade = "3";break;
             case 'C': stringGrade = "2";break;
             case 'D': stringGrade = "1";break;
@@ -38,7 +36,20 @@ public class Exercise_04_14 {
     }
 }
 
-//                                                 _Output_
+//                                                 _Output One_
 /*
+Enter a letter grade: B
+The corresponding number is 3
+ */
 
+//                                                 _Output Two_
+/*
+Enter a letter grade: T
+T is an invalid grade
+ */
+
+//                                                 _Output Three_
+/*
+Enter a letter grade: Seif Yehia
+You must enter exactly one character
  */
