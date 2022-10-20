@@ -19,7 +19,7 @@ public class Exercise_04_08 {
         System.out.print("Enter an ASCII code: ");
         asciiCode = input.nextShort();
         if (asciiCode < 0 || asciiCode > Byte.MAX_VALUE) {
-            System.out.println(" Error: integer number should be between 0 and 127");
+            System.out.println("Error: integer number should be between 0 and 127");
             System.exit(1);
         }
         System.out.println("The character for ASCII code " + asciiCode + " is " + (char) asciiCode);
