@@ -31,6 +31,12 @@ public class Question_04_08 {
         System.out.println("Find out the character for the hexadecimal code 71 is " + (char) 0x71);
         System.out.println("Find out the character for the hexadecimal code 72 is " + (char) 0x72);
         System.out.println("Find out the character for the hexadecimal code 7A is " + (char) 0x7A);
+        System.out.println("At the same ");
+        System.out.println("Find out the character for the hexadecimal code 40 is " + '\u0040');
+        System.out.println("Find out the character for the hexadecimal code 5A is " + '\u005A');
+        System.out.println("Find out the character for the hexadecimal code 71 is " + '\u0071');
+        System.out.println("Find out the character for the hexadecimal code 72 is " + '\u0072');
+        System.out.println("Find out the character for the hexadecimal code 7A is " + '\u007A');
     }
 }
 
@@ -48,6 +54,12 @@ Find out the character for the decimal code 79 is O
 Find out the character for the decimal code 85 is U
 Find out the character for the decimal code 90 is Z
 ___________________________________________
+Find out the character for the hexadecimal code 40 is @
+Find out the character for the hexadecimal code 5A is Z
+Find out the character for the hexadecimal code 71 is q
+Find out the character for the hexadecimal code 72 is r
+Find out the character for the hexadecimal code 7A is z
+At the same
 Find out the character for the hexadecimal code 40 is @
 Find out the character for the hexadecimal code 5A is Z
 Find out the character for the hexadecimal code 71 is q
