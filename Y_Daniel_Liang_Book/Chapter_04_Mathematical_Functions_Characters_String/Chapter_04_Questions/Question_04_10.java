@@ -11,8 +11,8 @@ package Chapter_04_Questions;
 //                                                 _Solution_
 public class Question_04_10 {
     public static void main(String[] args) {
-        System.out.println("\\");
-        System.out.println("\"");
+        System.out.println('\\');
+        System.out.println('\"');
     }
 }
 
