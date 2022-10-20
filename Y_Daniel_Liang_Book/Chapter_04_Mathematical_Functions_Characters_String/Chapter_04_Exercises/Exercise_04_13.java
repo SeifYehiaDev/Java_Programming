@@ -14,16 +14,20 @@ import java.util.Scanner;
 //                                                 _Solution_
 public class Exercise_04_13 {
     public static void main(String[] args) {
-        char letter, upperLetter;
+        char charLetter, upperLetter;
+        String stringLetter;
+        boolean validLength;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter: ");
-        letter = input.nextLine().charAt(0);
-        if (!Character.isLetter(letter)) {
-            System.out.println(letter + " is an invalid input");
+        stringLetter = input.nextLine();
+        charLetter = stringLetter.charAt(0);
+        validLength = stringLetter.length() == 1;
+        if (!(validLength & Character.isLetter(charLetter))) {
+            System.out.println((!validLength) ? "You must enter exactly one character" : charLetter + " is an invalid input");
             System.exit(1);
         }
-        upperLetter = Character.toUpperCase(letter);
-        System.out.println(letter + " is a " + ((upperLetter == 'A' || upperLetter == 'O' || upperLetter == 'U' || upperLetter == 'I' || upperLetter == 'E') ? "vowel" : "consonant"));
+        upperLetter = Character.toUpperCase(charLetter);
+        System.out.println(charLetter + " is a " + ((upperLetter == 'A' || upperLetter == 'O' || upperLetter == 'U' || upperLetter == 'I' || upperLetter == 'E') ? "vowel" : "consonant"));
     }
 }
 
@@ -43,4 +47,10 @@ a is a vowel
 /*
 Enter a letter: #
 # is an invalid input
+ */
+
+//                                                 _Output Four_
+/*
+Enter a letter: Seif Yehia
+You must enter exactly one character
  */
