@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 //                                                 _Question_
                 /*(Find the character of an ASCII code) Write a program that receives an ASCII code
-                (an integer between 0 and 127) and displays its character. */
+                (an integer between 0 and 127) and displays its character.*/
 //                                                 _Solution_
 public class Exercise_04_08 {
     public static void main(String[] args) {
