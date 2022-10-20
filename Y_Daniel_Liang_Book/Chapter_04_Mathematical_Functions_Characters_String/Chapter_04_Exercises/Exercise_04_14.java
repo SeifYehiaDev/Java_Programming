@@ -17,6 +17,7 @@ public class Exercise_04_14 {
     public static void main(String[] args) {
         String stringGrade;
         char charGrade;
+        int grade;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter grade: ");
         stringGrade = input.nextLine();
@@ -26,20 +27,20 @@ public class Exercise_04_14 {
             System.exit(1);
         }
         switch (charGrade) {
-            case 'A': stringGrade = "4";break;
-            case 'B': stringGrade = "3";break;
-            case 'C': stringGrade = "2";break;
-            case 'D': stringGrade = "1";break;
-            default: stringGrade = "0";
+            case 'A': grade = 4;break;
+            case 'B': grade = 3;break;
+            case 'C': grade = 2;break;
+            case 'D': grade = 1;break;
+            default: grade = 0;
         }
-        System.out.println("The corresponding number is ".concat(stringGrade));
+        System.out.println("The numeric value for grade " + stringGrade.charAt(0) + " is "+grade);
     }
 }
 
 //                                                 _Output One_
 /*
 Enter a letter grade: B
-The corresponding number is 3
+The numeric value for grade B is 3
  */
 
 //                                                 _Output Two_
