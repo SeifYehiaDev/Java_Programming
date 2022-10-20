@@ -33,7 +33,7 @@ public class Exercise_04_14 {
             case 'D': grade = 1;break;
             default: grade = 0;
         }
-        System.out.println("The numeric value for grade " + stringGrade.charAt(0) + " is "+ grade);
+        System.out.println("The numeric value for grade " + stringGrade.charAt(0) + " is " + grade);
     }
 }
 
