@@ -18,7 +18,8 @@ public class Listing_04_05_LotteryUsingStrings {
             System.out.println("Error: input should be two digits");
             System.exit(1);
         }
-        lottery = (int) (Math.random() * 10) + "" + (int) (Math.random() * 10);
+//      lottery = (int) (Math.random() * 10) + "" + (int) (Math.random() * 10);
+        lottery = (int) (Math.random() * 10) + String.valueOf((int) (Math.random() * 10));
         System.out.println("The lottery number is " + lottery);
         System.out.println((lottery.equals(guess)) ? "Exact match: you win $10,000" : (lottery.charAt(0) == guess.charAt(1) && lottery.charAt(1) == guess.charAt(0)) ? "Match all digits: you win $3,000" : (lottery.charAt(0) == guess.charAt(0) || lottery.charAt(0) == guess.charAt(1) || lottery.charAt(1) == guess.charAt(0) || lottery.charAt(1) == guess.charAt(1)) ? "Match one digit: you win $1,000" : "Sorry, no match");
     }
