@@ -45,10 +45,10 @@ public class Exercise_04_17 {
             case "Oct": intMonth = 10; break;
             case "Nov": intMonth = 11; break;
             case "Dec": intMonth = 12; break;
-            default: intMonth = 0;
+                default: intMonth = -1;
         }
         numberOfDays = (intMonth == 2) ? (years % 4 == 0 && years % 100 != 0 || years % 400 == 0) ? 29 : 28 : (intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11) ? 30 : 31;
-        System.out.println((intMonth == 0) ? "Wrong month!" : stringMonth.concat(" ") + years + " has " + numberOfDays + " days");
+        System.out.println((intMonth == -1) ? "Month an invalid" : stringMonth.concat(" ") + years + " has " + numberOfDays + " days");
     }
 }
 
@@ -98,7 +98,7 @@ Error: first letter must be in uppercase
 /*
 Enter a year: 2022
 Enter a month: Sei
-Wrong month!
+Month an invalid
  */
 
 //                                                 _Output 8_
