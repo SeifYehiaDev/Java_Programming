@@ -26,7 +26,7 @@ public class Exercise_04_18 {
         System.out.print("Enter two characters : ");
         majorAndState = input.nextLine();
         if (majorAndState.length() != 2) {
-            System.out.println("You must enter exactly two characters");
+            System.out.println("Error: You must enter exactly two characters");
             System.exit(1);
         }
         majorAndState = majorAndState.toUpperCase();
@@ -64,4 +64,10 @@ Invalid input
 /*
 Enter two characters : S9
 Invalid input
+ */
+
+//                                                 _Output Six_
+/*
+Enter two characters : SeifYehia
+Error: You must enter exactly two characters
  */
