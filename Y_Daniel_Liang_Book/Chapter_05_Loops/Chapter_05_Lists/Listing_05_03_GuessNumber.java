@@ -15,7 +15,7 @@ public class Listing_05_03_GuessNumber {
         Scanner input = new Scanner(System.in);
         System.out.println("Guess a magic number between 0 and 100");
         do {
-            System.out.print("Enter your guess: ");
+            System.out.print("Enter your guess:  ");
             userGuess = input.nextInt();
             validUserGuess = randomNumber == userGuess;
             System.out.println((validUserGuess) ? "Yes, the number is " + randomNumber : (userGuess > randomNumber) ? "Your guess is too high" : "Your guess is too low");
