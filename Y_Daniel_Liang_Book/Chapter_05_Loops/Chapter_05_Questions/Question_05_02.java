@@ -6,8 +6,6 @@
 
 package Chapter_05_Questions;
 
-import java.util.Scanner;
-
 //                                                 _Question_
 /*What is wrong if guess is initialized to 0 in line 20 in Listing 5.3?*/
 //                                                 _Solution_
