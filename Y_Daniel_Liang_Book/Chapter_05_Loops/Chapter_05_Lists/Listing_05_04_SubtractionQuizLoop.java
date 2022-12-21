@@ -1,7 +1,7 @@
 /*
- * Author : Seif Yehia Esmail Abdel-Aal
+ * Author : Seif Yehia Esmail AbdelAal
  * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
- * Created on : 28/10/2022
+ * Created on : 21/12/2022
  * */
 
 package Chapter_05_Lists;
@@ -12,55 +12,59 @@ import java.util.Scanner;
 public class Listing_05_04_SubtractionQuizLoop {
     public static void main(String[] args) {
         final int NUMBER_OF_QUESTIONS = 5;
-        int count = 0, correctCount = 0, index, answer, correctAnswer, randomNumbers[] = new int[2];
         long startTime, testTime;
-        String output = "";
+        int randomNumbers[] = new int[2], answer, correctAnswer, correctCount = 0, index, count = 0;
+        String equation, message = "", stateOfAnswer;
         Scanner input = new Scanner(System.in);
         startTime = System.currentTimeMillis();
         while (count < NUMBER_OF_QUESTIONS) {
             for (index = 0; index < randomNumbers.length; index++)
-                randomNumbers[index] = (int) (Math.random() * 11); // Generate random numbers between 0 and 10.
+                randomNumbers[index] = (int) (Math.random() * 11);
             if (randomNumbers[0] > randomNumbers[1])
-                Arrays.sort(randomNumbers); // sorting array form low to high
+                Arrays.sort(randomNumbers);
+            equation = randomNumbers[1] + " - " + randomNumbers[0];
             correctAnswer = randomNumbers[1] - randomNumbers[0];
-            System.out.print(count + 1 + "- " + "What's " + randomNumbers[1] + " - " + randomNumbers[0] + "? ");
+            System.out.print("What's ".concat(equation).concat("? "));
             answer = input.nextInt();
-            if (answer == correctAnswer) {
+            if (correctAnswer == answer) {
                 System.out.println("You are correct!");
                 correctCount++;
-            } else
-                System.out.println("Your answer is wrong.\n" + randomNumbers[1] + " - " + randomNumbers[0] + " should be " + correctAnswer);
-            output += randomNumbers[1] + "-" + randomNumbers[0] + "=" + answer + ((answer == correctAnswer) ? " correct" : " wrong") + "\n";
+                stateOfAnswer = "correct";
+            } else {
+                System.out.println("Your answer is wrong.\n".concat(equation).concat(" should be ") + correctAnswer);
+                stateOfAnswer = "wrong";
+            }
+            message += randomNumbers[1] + "-" + randomNumbers[0] + "=" + answer + " " + stateOfAnswer + "\n";
             count++;
         }
         testTime = (System.currentTimeMillis() - startTime) / 1000;
         System.out.println("\nCorrect count is " + correctCount);
-        System.out.println("Test time is " + testTime + " seconds");
-        System.out.print("\n" + output);
+        System.out.println("Test time is " + testTime + " seconds\n");
+        System.out.print(message);
     }
 }
 
 //                                                 _Output_
 /*
-1- What's 2 - 0? 2
+What's 5 - 0? 5
 You are correct!
-2- What's 7 - 2? 5
+What's 10 - 1? 9
 You are correct!
-3- What's 10 - 6? 4
+What's 8 - 1? 7
 You are correct!
-4- What's 4 - 1? 4
+What's 6 - 6? 2
 Your answer is wrong.
-4 - 1 should be 3
-5- What's 7 - 4? 7
+6 - 6 should be 0
+What's 9 - 5? 5
 Your answer is wrong.
-7 - 4 should be 3
+9 - 5 should be 4
 
 Correct count is 3
 Test time is 13 seconds
 
-2-0=2 correct
-7-2=5 correct
-10-6=4 correct
-4-1=4 wrong
-7-4=7 wrong
+5-0=5 correct
+10-1=9 correct
+8-1=7 correct
+6-6=2 wrong
+9-5=5 wrong
  */
