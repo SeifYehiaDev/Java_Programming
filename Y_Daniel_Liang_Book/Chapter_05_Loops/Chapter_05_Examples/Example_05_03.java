@@ -20,7 +20,7 @@ public class Example_05_03 {
         count = 0;
         while (count < 101) {
             System.out.println(count + 1 + "- " + "Welcome to Java!");
-            count++;
+            count++ ;
         }
     }
 }
