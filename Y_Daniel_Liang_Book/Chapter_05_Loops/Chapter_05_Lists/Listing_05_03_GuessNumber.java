@@ -1,7 +1,7 @@
 /*
- * Author : Seif Yehia Esmail Abdel-Aal
+ * Author : Seif Yehia Esmail AbdelAal
  * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
- * Created on : 28/10/2022
+ * Created on : 21/12/2022
  * */
 
 package Chapter_05_Lists;
@@ -10,34 +10,26 @@ import java.util.Scanner;
 
 public class Listing_05_03_GuessNumber {
     public static void main(String[] args) {
-        int randomNumber = (int) (Math.random() * 101), userGuess;
-        boolean validUserGuess;
+        int randomNumber = (int) (Math.random() * 101), guessNumber;
+        boolean validGuess;
         Scanner input = new Scanner(System.in);
         System.out.println("Guess a magic number between 0 and 100");
         do {
             System.out.print("Enter your guess: ");
-            userGuess = input.nextInt();
-            validUserGuess = randomNumber == userGuess;
-            System.out.println((validUserGuess) ? "Yes, the number is " + randomNumber : (userGuess > randomNumber) ? "Your guess is too high" : "Your guess is too low");
-        } while (!validUserGuess);
+            guessNumber = input.nextInt();
+            validGuess = randomNumber == guessNumber;
+            System.out.println((randomNumber == guessNumber) ? "Yes, the number is " + guessNumber : "Your guess is ".concat((guessNumber > randomNumber) ? "high" : "low"));
+        } while (!validGuess);
     }
 }
 
 //                                                 _Output_
 /*
 Guess a magic number between 0 and 100
-Enter your guess: 100
-Your guess is too high
-Enter your guess: 50
-Your guess is too low
-Enter your guess: 60
-Your guess is too low
-Enter your guess: 70
-Your guess is too low
-Enter your guess: 80
-Your guess is too high
-Enter your guess: 79
-Your guess is too high
-Enter your guess: 78
-Yes, the number is 78
+Enter your guess: 40
+Your guess is high
+Enter your guess: 38
+Your guess is low
+Enter your guess: 39
+Yes, the number is 39
  */
