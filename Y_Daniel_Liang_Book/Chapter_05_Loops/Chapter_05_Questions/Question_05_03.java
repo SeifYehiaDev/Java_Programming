@@ -7,7 +7,7 @@
 package Chapter_05_Questions;
 
 //                                                 _Question_
-/*How many times are the following loop bodies repeated? What is the output of each loop?*/
+                /*How many times are the following loop bodies repeated? What is the output of each loop?*/
 //                                                 _Solution_
 public class Question_05_03 {
     public static void main(String[] args) {
