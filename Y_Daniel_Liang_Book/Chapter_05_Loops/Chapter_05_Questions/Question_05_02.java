@@ -9,7 +9,7 @@ package Chapter_05_Questions;
 import java.util.Scanner;
 
 //                                                 _Question_
-/*What is wrong if guess is initialized to 0 in line 20 in Listing 5.3?*/
+                    /*What is wrong if guess is initialized to 0 in line 20 in Listing 5.3?*/
 //                                                 _Solution_
 public class Question_05_02 {
     public static void main(String[] args) {
