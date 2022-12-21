@@ -1,7 +1,7 @@
 /*
- * Author : Seif Yehia Esmail Abdel-Aal
+ * Author : Seif Yehia Esmail AbdelAal
  * My accounts on social media (facebook , linkedin , instagram , github) : SeifYehiaDev
- * Created on : 28/10/2022
+ * Created on : 21/12/2022
  * */
 
 package Chapter_05_Lists;
@@ -23,9 +23,15 @@ public class Listing_05_05_SentinelValue {
 
 //                                                 _Output_
 /*
+Enter an integer (the input ends if it is 0): 1
 Enter an integer (the input ends if it is 0): 2
 Enter an integer (the input ends if it is 0): 3
 Enter an integer (the input ends if it is 0): 4
+Enter an integer (the input ends if it is 0): 5
+Enter an integer (the input ends if it is 0): 6
+Enter an integer (the input ends if it is 0): 7
+Enter an integer (the input ends if it is 0): 8
+Enter an integer (the input ends if it is 0): 9
 Enter an integer (the input ends if it is 0): 0
-The sum is 9
+The sum is 45
  */
