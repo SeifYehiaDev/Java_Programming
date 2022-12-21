@@ -6,6 +6,8 @@
 
 package Chapter_05_Questions;
 
+import java.util.Scanner;
+
 //                                                 _Question_
 /*What is wrong if guess is initialized to 0 in line 20 in Listing 5.3?*/
 //                                                 _Solution_
@@ -13,9 +15,9 @@ public class Question_05_02 {
     public static void main(String[] args) {
 /*        int number = (int) (Math.random() * 101);
         Scanner input = new Scanner(System.in);
-        System.out.println(number);
         System.out.println("Guess a magic number between 0 and 100");
-        int guess = 0;
+   //   int guess = -1;
+        int guess = 0 ; // Wrong
         while (guess != number) {
             System.out.print("\nEnter your guess: ");
             guess = input.nextInt();
