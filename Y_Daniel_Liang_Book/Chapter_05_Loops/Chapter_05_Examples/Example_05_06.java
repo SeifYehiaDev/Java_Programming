@@ -14,7 +14,6 @@ public class Example_05_06 {
         // Equivalent
 /*        while (true)
             System.out.println("Welcome to Java!");*/
-
     }
 }
 
