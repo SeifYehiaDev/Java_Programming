@@ -15,8 +15,7 @@ public class Example_05_05 {
         index = 0;
         for (; index < 10; System.out.println(index + 1 + "- Welcome to Java!"), index++) ;
         System.out.println("_______________________________________");
-        for (index = 0, count = 1; index < 10; System.out.println(count + "- Welcome to Java!"), index++, count++)
-            ;
+        for (index = 0, count = 1; index < 10; System.out.println(count + "- Welcome to Java!"), index++, count++);
     }
 }
 
