@@ -17,7 +17,7 @@ public class Question_05_05 {
         while (x > 0)
             x++;
         System.out.println("x is " + x);
-        System.out.println("When x reach to 2_147_483_647 loop increment add 1 , out of range , x = Integer.MIN_VALUE , loop end") ;
+        System.out.println("When x reach to 2_147_483_647 loop increment add 1 , out of range , x = Integer.MIN_VALUE , loop end");
     }
 }
 
