@@ -7,7 +7,7 @@
 package Chapter_05_Questions;
 
 //                                                 _Question_
-/*Can you always convert a while loop into a for loop? Convert the following while loop into a for loop.*/
+        /*Can you always convert a while loop into a for loop? Convert the following while loop into a for loop.*/
 //                                                 _Solution_
 public class Question_05_16 {
     public static void main(String[] args) {
