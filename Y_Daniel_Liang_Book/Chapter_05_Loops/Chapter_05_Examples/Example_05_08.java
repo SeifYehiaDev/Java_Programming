@@ -17,5 +17,5 @@ public class Example_05_08 {
 
 //                                                 _Output_
 /*
-
+The sum is 49.50000000000003
  */
