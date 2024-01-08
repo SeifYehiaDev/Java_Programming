@@ -22,7 +22,7 @@ public class Question_02_02 {
                 	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
                 	at java.base/java.util.Scanner.next(Scanner.java:1594)
                 	at java.base/java.util.Scanner.nextDouble(Scanner.java:2564)
-                	at Chapter_02_Questions.Question_02_02.main(Question_02_02.java:17) """);
+                	at Chapter_02_Questions.Question_02_02.main(Question_02_02.java:17)""");
     }
 }
 
