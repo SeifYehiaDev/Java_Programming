@@ -8,7 +8,7 @@ package Chapter_02_Questions;
 
 public class Question_02_09 {
     public static void main(String[] args) {
-        final double KILOMETERS_PER_MILE = 1.6;
+        final double KILOMETERS_PER_MILE = 1.609D;
         double miles = 100, kilometers = miles * KILOMETERS_PER_MILE;
         System.out.print("What is kilometers after Step 4?\n");
         System.out.print(kilometers);
@@ -18,5 +18,5 @@ public class Question_02_09 {
 //                                                 _Output_
 /*
 What is kilometers after Step 4?
-160.0
+160.9
  */
