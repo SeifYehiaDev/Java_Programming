@@ -8,7 +8,7 @@ package Chapter_01_Lists;
 
 public class Listing_01_04_ShowSyntaxErrors {
     public static void main(String[] args) {
-        // System.out.println("Welcome to Java);
+        // System.out.println("Welcome to Java); Missing a quotation.
         System.out.println("Welcome to Java");
     }
 }
