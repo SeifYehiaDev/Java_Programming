@@ -16,7 +16,7 @@ public class Exercise_02_03 {
         System.out.print("Enter a value for feet: ");
         feet = input.nextDouble();
         meters = feet * METERS_PER_FOOT;
-        System.out.printf("%.1f feet is %.4f meters",feet,meters);
+        System.out.printf("%.1f feet is %.4f meters", feet, meters);
     }
 }
 
