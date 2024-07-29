@@ -22,14 +22,12 @@ public class Listing_03_01_AdditionQuiz {
 
 //                                                 _Output One_
 /*
-
 What is 1 + 6? 7
 1 + 6 = 7 is true
  */
 
 //                                                 _Output Two_
 /*
-
 What is 5 + 4? 10
 5 + 4 = 10 is false
  */
