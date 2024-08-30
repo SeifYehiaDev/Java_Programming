@@ -13,7 +13,7 @@ public class Exercise_04_09 {
         char character;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a character: ");
-        character = input.nextLine().charAt(0);
+        character = input.nextLine().trim().charAt(0);
         System.out.printf("The Unicode for the character %c is %d", character, (int) character);
     }
 }
