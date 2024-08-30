@@ -15,9 +15,9 @@ public class Exercise_04_02 {
         double x1, y1, x2, y2, distance;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter point 1 (latitude and longitude) in degrees: ");
-        pointOne = input.nextLine();
+        pointOne = input.nextLine().trim();
         System.out.print("Enter point 2 (latitude and longitude) in degrees: ");
-        pointTwo = input.nextLine();
+        pointTwo = input.nextLine().trim();
         x1 = Double.parseDouble(pointOne.substring(0, pointOne.indexOf(',')));
         y1 = Double.parseDouble(pointOne.substring(pointOne.indexOf(',') + 2));
         x2 = Double.parseDouble(pointTwo.substring(0, pointTwo.indexOf(',')));
