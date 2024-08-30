@@ -43,7 +43,7 @@ public class Exercise_04_10 {
             System.out.printf("Is your birthday in Set%d?\n", set);
             System.out.println((set == 1) ? setOne : (set == 2) ? setTwo : (set == 3) ? setThree : (set == 4) ? setFour : setFive);
             System.out.print("Enter N for No and Y for Yes: ");
-            answer = Character.toUpperCase(input.nextLine().charAt(0));
+            answer = Character.toUpperCase(input.nextLine().trim().charAt(0));
             day += (answer == 'Y') ? (set == 1) ? 1 : (set == 2) ? 2 : (set == 3) ? 4 : (set == 4) ? 8 : 16 : 0;
             if (set != 5) System.out.println();
         }
