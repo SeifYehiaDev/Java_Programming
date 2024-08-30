@@ -14,7 +14,7 @@ public class Exercise_04_15 {
         char letter;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter: ");
-        letter = Character.toUpperCase(input.nextLine().charAt(0));
+        letter = Character.toUpperCase(input.nextLine().trim().charAt(0));
         if (Character.isLetter(letter)) {
             number = (letter >= 'W') ? 9 : (letter >= 'T') ? 8 : (letter >= 'P') ? 7 : (letter >= 'M') ? 6 : (letter >= 'J') ? 5 : (letter >= 'G') ? 4 : (letter >= 'D') ? 3 : 2;
             System.out.printf("The corresponding number is %d", number);
