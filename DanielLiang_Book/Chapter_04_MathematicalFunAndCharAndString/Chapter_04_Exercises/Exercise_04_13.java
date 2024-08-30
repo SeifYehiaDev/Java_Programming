@@ -14,7 +14,7 @@ public class Exercise_04_13 {
         boolean isVowel;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter: ");
-        letter = input.nextLine().charAt(0);
+        letter = input.nextLine().trim().charAt(0);
         if (Character.isLetter(letter)) {
             isVowel = Character.toLowerCase(letter) == 'a' || Character.toLowerCase(letter) == 'e' || Character.toLowerCase(letter) == 'i' || Character.toLowerCase(letter) == 'o' || Character.toLowerCase(letter) == 'u';
             System.out.printf("%c is a %s", letter, (isVowel) ? "vowel" : "consonant");
