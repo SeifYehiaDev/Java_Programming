@@ -14,7 +14,7 @@ public class Exercise_04_12 {
         String hexString, binaryNumber = "";
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a hex digit: ");
-        hexString = input.nextLine();
+        hexString = input.nextLine().trim();
         if (hexString.length() != 1) {
             System.out.print("Error: You must enter exactly one character");
             System.exit(1);
