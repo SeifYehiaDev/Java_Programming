@@ -14,6 +14,10 @@ public class Exercise_04_08 {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an ASCII code: ");
         asciiCode = input.nextByte();
+        if (asciiCode < 0) {
+            System.out.print("Error: invalid input");
+            System.exit(1);
+        }
         System.out.printf("The character for ASCII code %d is %c", asciiCode, (char) asciiCode);
     }
 }
