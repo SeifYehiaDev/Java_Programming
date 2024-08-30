@@ -14,7 +14,7 @@ public class Exercise_04_14 {
         char gradeLetter;
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a letter grade: ");
-        gradeLetter = input.nextLine().charAt(0);
+        gradeLetter = input.nextLine().trim().charAt(0);
         if (Character.toUpperCase(gradeLetter) >= 'A' && Character.toUpperCase(gradeLetter) <= 'F' && Character.toUpperCase(gradeLetter) != 'E') {
             gradeDigit = (Character.toUpperCase(gradeLetter) == 'A') ? 4 : (Character.toUpperCase(gradeLetter) == 'B') ? 3 : (Character.toUpperCase(gradeLetter) == 'C') ? 2 : ((Character.toUpperCase(gradeLetter) == 'D')) ? 1 : 0;
             System.out.printf("The numeric value for grade %c is %d", gradeLetter, gradeDigit);
